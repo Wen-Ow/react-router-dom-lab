@@ -1,6 +1,6 @@
 import { useState } from "react"; // useState keeps track of all mailboxes
-import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar.jsx";
+import { Routes, Route } from "react-router-dom"; // Routes and Route are used for routing in React
+import NavBar from "./components/NavBar/NavBar.jsx"; // NavBar is a component that contains the navigation bar
 import MailboxForm from "./components/MailboxForm/MailboxForm.jsx";
 import MailboxList from "./components/MailboxList/MailboxList.jsx";
 import MailboxDetails from "./components/MailboxDetails/MailboxDetails.jsx";
